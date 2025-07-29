@@ -6,9 +6,6 @@ github_username: deno-hub
 minimal_mistakes_skin: default
 search: true
 
-# ✅ Global custom CSS for font, justification, green color
-custom_css: /assets/css/custom.css
-
 # Build settings
 markdown: kramdown
 remote_theme: mmistakes/minimal-mistakes
@@ -70,7 +67,7 @@ footer:
 sass:
   style: compressed
 
-# Defaults for pages and posts
+# Global defaults
 defaults:
   - scope:
       path: ""
@@ -78,8 +75,7 @@ defaults:
     values:
       layout: single
       author_profile: true
-      custom_css: assets/css/custom.css
-      head: /_includes/head-custom.html
+      custom_css: /assets/css/custom.css
 
   - scope:
       path: ""
@@ -87,13 +83,12 @@ defaults:
     values:
       layout: single
       author_profile: true
-      custom_css: assets/css/custom.css
+      custom_css: /assets/css/custom.css
 
   - scope:
       path: ""
     values:
-      custom_css: assets/css/custom.css
-
+      custom_css: /assets/css/custom.css
 
 # Archives
 category_archive:
