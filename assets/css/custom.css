@@ -1,12 +1,12 @@
-/* Custom global styles */
-
 body {
-  font-size: 10px;
-  text-align: justify;
+  font-size: 10px !important;
+  text-align: justify !important;
 }
 
 .page__content p,
-.page__content li {
-  font-size: 6px;
-  text-align: justify;
+.page__content li,
+.page__content {
+  font-size: 10px !important;
+  text-align: justify !important;
+  line-height: 1.5;
 }
