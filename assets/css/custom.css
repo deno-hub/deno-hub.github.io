@@ -1,5 +1,15 @@
 /* Global Typography */
-body, p, li, h1, h2, h3, h4, h5, h6, a {
+html body,
+.page__content,
+.page__content p,
+.page__content li,
+.page__content h1,
+.page__content h2,
+.page__content h3,
+.page__content h4,
+.page__content h5,
+.page__content h6,
+.page__content a {
   font-family: "Times New Roman", Times, serif !important;
   font-size: 10px !important;
   text-align: justify !important;
