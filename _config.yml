@@ -6,6 +6,9 @@ github_username: deno-hub
 minimal_mistakes_skin: default
 search: true
 
+# Inject custom styles into site head
+head: /_includes/head-custom.html
+
 # Build settings
 markdown: kramdown
 remote_theme: mmistakes/minimal-mistakes
