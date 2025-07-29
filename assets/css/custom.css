@@ -1,22 +1,14 @@
-/* Global font settings */
-body,
-p,
-li,
-h1, h2, h3, h4, h5, h6,
-a {
+/* Typography */
+body, p, li, h1, h2, h3, h4, h5, h6, a {
   font-family: "Times New Roman", Times, serif !important;
   font-size: 10px !important;
   text-align: justify !important;
   line-height: 1.5 !important;
 }
 
-/* Author name and page titles in green */
+/* Green styling for name and menu */
 .author__name,
-.page__title {
-  color: green !important;
-}
-
-/* Top nav menu items in green */
+.page__title,
 .nav__items a,
 .nav__items a:visited {
   color: green !important;
