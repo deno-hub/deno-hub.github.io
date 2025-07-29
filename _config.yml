@@ -74,21 +74,25 @@ sass:
 defaults:
   - scope:
       path: ""
-      type: "posts"
-    values:
-      layout: single
-      author_profile: true
-      read_time: true
-      comments: false
-      share: true
-      related: true
-
-  - scope:
-      path: ""
       type: "pages"
     values:
       layout: single
       author_profile: true
+      custom_css: assets/css/custom.css
+
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: single
+      author_profile: true
+      custom_css: assets/css/custom.css
+
+  - scope:
+      path: ""
+    values:
+      custom_css: assets/css/custom.css
+
 
 # Archives
 category_archive:
