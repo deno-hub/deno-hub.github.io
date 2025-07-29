@@ -10,3 +10,19 @@ body {
   text-align: justify !important;
   line-height: 1.5;
 }
+/* Set global font to Times New Roman */
+body, p, li, h1, h2, h3, h4, h5, h6, a {
+  font-family: "Times New Roman", Times, serif !important;
+}
+
+/* Make your name in sidebar and page title green */
+.author__name,
+.page__title {
+  color: green !important;
+}
+
+/* Make navbar menu items green */
+.nav__items a,
+.nav__items a:visited {
+  color: green !important;
+}
