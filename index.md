@@ -1,8 +1,9 @@
 ---
-layout: home
+layout: single
 title: "Denis Momanyi"
 author_profile: true
 permalink: /
+author_profile: true
 ---
 
 I am a PhD candidate in Agricultural Economics at Humboldt-Universität zu Berlin, affiliated with the IRI THESys Graduate Program and the Leibniz Centre for Agricultural Landscape Research (ZALF). My research focuses on structural inequality, climate-smart agriculture (CSA), and intersectional vulnerabilities among smallholder farmers in Kenya.
