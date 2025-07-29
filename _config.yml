@@ -69,7 +69,7 @@ sass:
 
 defaults:
   - scope:
-      path: "_pages/about.md"
+      path: "index.md"
     values:
       permalink: /
       layout: single
