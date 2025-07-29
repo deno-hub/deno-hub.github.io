@@ -6,6 +6,9 @@ github_username: deno-hub
 minimal_mistakes_skin: default
 search: true
 
+# ✅ Global custom CSS for font, justification, green color
+custom_css: /assets/css/custom.css
+
 # Build settings
 markdown: kramdown
 remote_theme: mmistakes/minimal-mistakes
@@ -63,10 +66,11 @@ footer:
       icon: "fab fa-fw fa-linkedin"
       url: "https://www.linkedin.com/in/denis-momanyi/"
 
-# Page layouts and custom styles
+# Page layouts and styles
 sass:
   style: compressed
 
+# Defaults for pages and posts
 defaults:
   - scope:
       path: ""
@@ -78,7 +82,6 @@ defaults:
       comments: false
       share: true
       related: true
-      custom_css: /assets/css/custom.css
 
   - scope:
       path: ""
@@ -86,8 +89,6 @@ defaults:
     values:
       layout: single
       author_profile: true
-      custom_css: /assets/css/custom.css
-
 
 # Archives
 category_archive:
