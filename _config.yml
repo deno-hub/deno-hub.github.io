@@ -27,7 +27,7 @@ plugins:
 
 author:
   name   : "Denis Momanyi"
-  avatar : "/assets/IMG_20250718_143939.jpg" # Upload your photo to this path
+  avatar : "assets/IMG_20250718_143939.jpg" # Upload your photo to this path
   bio    : "PhD researcher in climate-smart agriculture, inequality, and smallholder resilience."
   links:
     - label: "Email"
