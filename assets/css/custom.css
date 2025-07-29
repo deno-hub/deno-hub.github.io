@@ -10,9 +10,16 @@ body {
   text-align: justify !important;
   line-height: 1.5;
 }
-/* Set global font to Times New Roman */
-body, p, li, h1, h2, h3, h4, h5, h6, a {
+/* Set global font to Times New Roman, size 10px, and justify all text */
+body,
+p,
+li,
+h1, h2, h3, h4, h5, h6,
+a {
   font-family: "Times New Roman", Times, serif !important;
+  font-size: 10px !important;
+  text-align: justify !important;
+  line-height: 1.5;
 }
 
 /* Make your name in sidebar and page title green */
