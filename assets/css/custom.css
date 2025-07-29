@@ -1,17 +1,13 @@
-/* Global font and justification */
-body, p, li, a, h1, h2, h3, h4, h5, h6 {
+/* Global font settings */
+body,
+p,
+li,
+h1, h2, h3, h4, h5, h6,
+a {
   font-family: "Times New Roman", Times, serif !important;
   font-size: 10px !important;
-  line-height: 1.5 !important;
   text-align: justify !important;
-}
-
-/* Ensure page content inherits these rules */
-.page__content {
-  font-size: 10px !important;
-  font-family: "Times New Roman", Times, serif !important;
   line-height: 1.5 !important;
-  text-align: justify !important;
 }
 
 /* Author name and page titles in green */
@@ -20,7 +16,7 @@ body, p, li, a, h1, h2, h3, h4, h5, h6 {
   color: green !important;
 }
 
-/* Navbar links in green */
+/* Top nav menu items in green */
 .nav__items a,
 .nav__items a:visited {
   color: green !important;
