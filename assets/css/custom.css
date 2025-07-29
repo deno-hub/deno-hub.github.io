@@ -1,22 +1,26 @@
-/* Global font and style settings */
-body,
-p,
-li,
-h1, h2, h3, h4, h5, h6,
-a {
+/* Global font and justification */
+body, p, li, a, h1, h2, h3, h4, h5, h6 {
   font-family: "Times New Roman", Times, serif !important;
   font-size: 10px !important;
+  line-height: 1.5 !important;
   text-align: justify !important;
-  line-height: 1.5;
 }
 
-/* Green text for sidebar name and page titles */
+/* Ensure page content inherits these rules */
+.page__content {
+  font-size: 10px !important;
+  font-family: "Times New Roman", Times, serif !important;
+  line-height: 1.5 !important;
+  text-align: justify !important;
+}
+
+/* Author name and page titles in green */
 .author__name,
 .page__title {
   color: green !important;
 }
 
-/* Green text for main navigation menu */
+/* Navbar links in green */
 .nav__items a,
 .nav__items a:visited {
   color: green !important;
