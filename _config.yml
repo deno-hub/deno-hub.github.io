@@ -1,17 +1,15 @@
-title: Denis Momanyi
-email: econdenis@gmail.com
-description: PhD Candidate | Agricultural Economics | Humboldt-Universität zu Berlin
-twitter_username: deno_ec
-github_username: deno-hub
+title: "Denis Momanyi"
+email: "econdenis@gmail.com"
+description: "PhD Candidate | Agricultural Economics | Humboldt-Universität zu Berlin"
+twitter_username: "deno_ec"
+github_username: "deno-hub"
 
-# ✅ Must be above the theme
+# Custom styles (must be above theme)
 custom_stylesheet: /assets/css/custom.css
 
+# Theme and search
 minimal_mistakes_skin: default
 search: true
-
-
-
 
 # Build settings
 markdown: kramdown
@@ -34,9 +32,9 @@ plugins:
 
 # Author profile
 author:
-  name   : "Denis Momanyi"
-  avatar : "/assets/IMG_20250718_143939.jpg"
-  bio    : "PhD researcher in climate-smart agriculture, inequality, and smallholder resilience."
+  name: "Denis Momanyi"
+  avatar: "/assets/IMG_20250718_143939.jpg"
+  bio: "PhD researcher in climate-smart agriculture, inequality, and smallholder resilience."
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope"
@@ -57,7 +55,7 @@ author:
       icon: "fab fa-fw fa-linkedin"
       url: "https://www.linkedin.com/in/denis-momanyi/"
 
-# Footer icons
+# Footer links
 footer:
   links:
     - label: "Google Scholar"
@@ -70,11 +68,11 @@ footer:
       icon: "fab fa-fw fa-linkedin"
       url: "https://www.linkedin.com/in/denis-momanyi/"
 
-# Page layouts and styles
+# CSS compression
 sass:
   style: compressed
 
-# Global defaults for pages and posts
+# Default layout and styling for all content
 defaults:
   - scope:
       path: ""
