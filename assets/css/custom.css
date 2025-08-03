@@ -1,11 +1,4 @@
-.page__title,
-.archive__subtitle,
-.author__name {
-  color: green !important;
-  font-size: 10px !important;
-  text-align: justify;
-}
-
+/* 1. Use Times New Roman site-wide */
 body,
 .page,
 .page__content,
@@ -13,18 +6,32 @@ body,
 .page__meta,
 .page__lead,
 .page__footer {
+  font-family: "Times New Roman", Times, serif !important;
   font-size: 10px !important;
   text-align: justify !important;
 }
 
-.greedy-nav a,
-.site-title {
-  color: green !important;
+/* 2. Make page titles and header elements academic green and small */
+.page__title,
+.archive__subtitle,
+.author__name,
+.site-title,
+.greedy-nav a {
+  color: #2e8b57 !important; /* academic green */
   font-size: 10px !important;
+  text-align: justify !important;
 }
 
+/* 3. Justify navigation and footer content */
 .greedy-nav,
 .footer__content,
 .footer__links {
   text-align: justify !important;
+}
+
+/* 4. Mobile fix: increase font size for small screens */
+@media (max-width: 768px) {
+  body {
+    font-size: 12px !important;
+  }
 }
