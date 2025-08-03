@@ -4,11 +4,12 @@ description: PhD Candidate | Agricultural Economics | Humboldt-Universität zu B
 twitter_username: deno_ec
 github_username: deno-hub
 
-# ✅ MUST be above this line
+# ✅ Must be above the theme
 custom_stylesheet: /assets/css/custom.css
 
 minimal_mistakes_skin: default
 search: true
+
 
 
 
