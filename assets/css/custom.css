@@ -2,7 +2,7 @@ body {
   font-family: "Times New Roman", serif;
   font-size: 10px;
   text-align: justify;
-  background-color: #fffaf0; /* just to trigger a change */
+  background-color: #fffaf0;
 }
 
 .site-title,
