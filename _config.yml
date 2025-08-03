@@ -4,7 +4,7 @@ description: "PhD Candidate | Agricultural Economics | Humboldt-Universität zu 
 twitter_username: "deno_ec"
 github_username: "deno-hub"
 
-# Custom styles (must be above theme)
+# ✅ Must be above the theme
 custom_stylesheet: /assets/css/custom.css
 
 # Theme and search
@@ -19,9 +19,15 @@ paginate: 5
 paginate_path: /page:num/
 timezone: Europe/Berlin
 
+# Make sure Jekyll processes these folders
 include:
+  - _includes
   - _pages
 
+# ✅ Inject custom HTML into <head>
+head_scripts: /_includes/head-custom.html
+
+# Plugins
 plugins:
   - jekyll-paginate
   - jekyll-sitemap
@@ -68,11 +74,11 @@ footer:
       icon: "fab fa-fw fa-linkedin"
       url: "https://www.linkedin.com/in/denis-momanyi/"
 
-# CSS compression
+# SASS style
 sass:
   style: compressed
 
-# Default layout and styling for all content
+# Default layout and styling
 defaults:
   - scope:
       path: ""
