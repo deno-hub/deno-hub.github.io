@@ -5,6 +5,8 @@ twitter_username: deno_ec
 github_username: deno-hub
 minimal_mistakes_skin: default
 search: true
+custom_stylesheet: /assets/css/custom.css
+
 
 # Build settings
 markdown: kramdown
