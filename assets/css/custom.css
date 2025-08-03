@@ -6,3 +6,14 @@
   font-size: 10px !important;
   text-align: justify;
 }
+/* Apply 10px font and justify text for all content */
+body,
+.page,
+.page__content,
+.archive,
+.page__meta,
+.page__lead,
+.page__footer {
+  font-size: 10px !important;
+  text-align: justify !important;
+}
