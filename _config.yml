@@ -6,10 +6,6 @@ github_username: deno-hub
 minimal_mistakes_skin: default
 search: true
 
-# Inject custom styles into site head
-custom_css: /assets/css/custom.css
-
-
 # Build settings
 markdown: kramdown
 remote_theme: mmistakes/minimal-mistakes
@@ -71,7 +67,7 @@ footer:
 sass:
   style: compressed
 
-# Global defaults
+# Global defaults for pages and posts
 defaults:
   - scope:
       path: ""
@@ -79,7 +75,7 @@ defaults:
     values:
       layout: single
       author_profile: true
-      custom_css: /assets/css/custom.css
+      css: /assets/css/custom.css
 
   - scope:
       path: ""
@@ -87,12 +83,12 @@ defaults:
     values:
       layout: single
       author_profile: true
-      custom_css: /assets/css/custom.css
+      css: /assets/css/custom.css
 
   - scope:
       path: ""
     values:
-      custom_css: /assets/css/custom.css
+      css: /assets/css/custom.css
 
 # Archives
 category_archive:
