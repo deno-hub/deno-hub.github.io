@@ -1,15 +1,8 @@
-/* Global Typography */
-body, p, li, h1, h2, h3, h4, h5, h6, a {
-  font-family: "Times New Roman", Times, serif !important;
-  font-size: 10px !important;
-  text-align: justify !important;
-  line-height: 1.5 !important;
-}
-
-/* Green styling for name and menu */
-.author__name,
+/* Make page titles green and smaller */
 .page__title,
-.nav__items a,
-.nav__items a:visited {
+.archive__subtitle,
+.author__name {
   color: green !important;
+  font-size: 10px !important;
+  text-align: justify;
 }
