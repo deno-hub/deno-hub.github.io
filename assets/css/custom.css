@@ -1,4 +1,3 @@
-/* Make page titles green and smaller */
 .page__title,
 .archive__subtitle,
 .author__name {
@@ -6,7 +5,7 @@
   font-size: 10px !important;
   text-align: justify;
 }
-/* Apply 10px font and justify text for all content */
+
 body,
 .page,
 .page__content,
@@ -17,17 +16,15 @@ body,
   font-size: 10px !important;
   text-align: justify !important;
 }
-/* Top menu items green */
+
 .greedy-nav a,
 .site-title {
   color: green !important;
   font-size: 10px !important;
 }
+
 .greedy-nav,
 .footer__content,
 .footer__links {
   text-align: justify !important;
 }
-git add assets/css/custom.css
-git commit -m "Custom styling: green titles, 10px font, justified text"
-git push
