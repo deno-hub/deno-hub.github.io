@@ -75,7 +75,7 @@ defaults:
     values:
       layout: single
       author_profile: true
-      css: /assets/css/custom.css
+      custom_css: /assets/css/custom.css
 
   - scope:
       path: ""
@@ -83,12 +83,12 @@ defaults:
     values:
       layout: single
       author_profile: true
-      css: /assets/css/custom.css
+      custom_css: /assets/css/custom.css
 
   - scope:
       path: ""
     values:
-      css: /assets/css/custom.css
+      custom_css: /assets/css/custom.css
 
 # Archives
 category_archive:
