@@ -1,22 +1,33 @@
+/* Global font settings */
 body {
-  font-family: "Times New Roman", serif;
-  font-size: 10px;
-  text-align: justify;
-  background-color: #fffaf0;
+  font-family: "Times New Roman", Times, serif !important;
+  font-size: 9px !important;
+  text-align: justify !important;
 }
 
-.site-title,
-nav a {
+/* Ensure post and page content text is justified */
+.page__content, .post__content {
+  text-align: justify !important;
+}
+
+/* Green name in site title */
+.site-title, .site-title a {
   color: green !important;
 }
-/* Style all links in content area */
-.page__content a {
-  color: orange !important;   /* Set link color to orange */
-  text-decoration: none !important; /* Remove underline */
+
+/* Green main menu items */
+.nav__item a {
+  color: green !important;
 }
 
-/* Keep orange color when hovering, maybe make it slightly darker */
+/* Links in page content */
+.page__content a {
+  color: orange !important;           /* Orange links */
+  text-decoration: none !important;   /* No underline */
+}
+
+/* Hover state for links */
 .page__content a:hover {
-  color: darkorange !important;
+  color: darkorange !important;       /* Darker orange on hover */
   text-decoration: none !important;
 }
