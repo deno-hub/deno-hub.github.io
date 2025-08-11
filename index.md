@@ -1,6 +1,8 @@
 ---
 title: "Home"
 layout: single
+permalink: /
+author_profile: true
 ---
 
 <p>
@@ -12,7 +14,7 @@ advised by
 <a href="https://www.pik-potsdam.de/members/hlotze/homepage" target="_blank" rel="noopener">Prof. Dr. Hermann Lotze-Campen</a>
 and the
 <a href="https://www.zalf.de/en/ueber_uns/mitarbeiter/Pages/momanyi_d.aspx" target="_blank" rel="noopener">Leibniz Centre for Agricultural Landscape Research (ZALF)</a>
-and
+advised by
 <a href="https://www.zalf.de/en/ueber_uns/mitarbeiter/Pages/sieber_s.aspx" target="_blank" rel="noopener">Prof. Dr. Stefan Sieber</a>.
 I also work on participatory scenarios modelling of sustainable agricultural futures with
 <a href="https://www.york.ac.uk/environment-geography/people/rob-marchant/" target="_blank" rel="noopener">Prof. Robert Marchant</a>
