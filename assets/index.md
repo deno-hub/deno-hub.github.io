@@ -1,7 +1,11 @@
 ---
 title: "Home"
 layout: single
+permalink: /
 ---
+
+<!-- Your HTML content here -->
+
 
 <p>
 I am a final-year PhD candidate in Applied Economics at
