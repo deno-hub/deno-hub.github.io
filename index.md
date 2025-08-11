@@ -1,15 +1,8 @@
 ---
----
 title: "Home"
 layout: single
 ---
 
-layout: single
-title: "Denis Momanyi"
-author_profile: true
-permalink: /
-author_profile: true
----
 <p>
 I am a final-year PhD candidate in Applied Economics at
 <a href="https://www.hu-berlin.de/" target="_blank" rel="noopener">Humboldt-Universität zu Berlin</a>,
@@ -19,7 +12,7 @@ advised by
 <a href="https://www.pik-potsdam.de/members/hlotze/homepage" target="_blank" rel="noopener">Prof. Dr. Hermann Lotze-Campen</a>
 and the
 <a href="https://www.zalf.de/en/ueber_uns/mitarbeiter/Pages/momanyi_d.aspx" target="_blank" rel="noopener">Leibniz Centre for Agricultural Landscape Research (ZALF)</a>
-advised by
+and
 <a href="https://www.zalf.de/en/ueber_uns/mitarbeiter/Pages/sieber_s.aspx" target="_blank" rel="noopener">Prof. Dr. Stefan Sieber</a>.
 I also work on participatory scenarios modelling of sustainable agricultural futures with
 <a href="https://www.york.ac.uk/environment-geography/people/rob-marchant/" target="_blank" rel="noopener">Prof. Robert Marchant</a>
@@ -48,6 +41,3 @@ Recently, I have grown increasingly passionate about <strong>computational model
 <p>
 This interdisciplinary orientation reflects my commitment to bridging rigorous empirical research with actionable insights for <strong>climate resilience</strong>, <strong>gender equity</strong>, and <strong>sustainable rural development</strong>.
 </p>
-
-📄 [Download CV](/assets/CV_Denis_Momanyi.pdf)  
-📬 [Contact me](mailto:econdenis@gmail.com)
