@@ -1,4 +1,9 @@
 ---
+---
+title: "Home"
+layout: single
+---
+
 layout: single
 title: "Denis Momanyi"
 author_profile: true
