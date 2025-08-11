@@ -9,3 +9,14 @@ body {
 nav a {
   color: green !important;
 }
+/* Style all links in content area */
+.page__content a {
+  color: orange !important;   /* Set link color to orange */
+  text-decoration: none !important; /* Remove underline */
+}
+
+/* Keep orange color when hovering, maybe make it slightly darker */
+.page__content a:hover {
+  color: darkorange !important;
+  text-decoration: none !important;
+}
