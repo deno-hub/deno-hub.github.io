@@ -31,3 +31,24 @@ body {
   color: darkorange !important;       /* Darker orange on hover */
   text-decoration: none !important;
 }
+/* Force 9px + justify across content */
+.page__content, .post__content { 
+  font-size: 9px !important; 
+  text-align: justify !important; 
+}
+
+/* Stronger selectors for links */
+.page__content a, 
+.post__content a, 
+.archive__item a, 
+article a {
+  color: orange !important;
+  text-decoration: none !important;
+}
+.page__content a:hover, 
+.post__content a:hover, 
+.archive__item a:hover, 
+article a:hover {
+  color: darkorange !important;
+  text-decoration: none !important;
+}
