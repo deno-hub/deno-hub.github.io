@@ -1,8 +1,6 @@
 ---
-layout: home
-title: "Denis Momanyi"
-author_profile: true
-permalink: /
+title: "Home"
+layout: single
 ---
 
 <p>
@@ -43,7 +41,3 @@ Recently, I have grown increasingly passionate about <strong>computational model
 <p>
 This interdisciplinary orientation reflects my commitment to bridging rigorous empirical research with actionable insights for <strong>climate resilience</strong>, <strong>gender equity</strong>, and <strong>sustainable rural development</strong>.
 </p>
-
-
-📄 [Download CV](/assets/CV_Denis_Momanyi.pdf)  
-📬 [Contact me](mailto:econdenis@gmail.com)
